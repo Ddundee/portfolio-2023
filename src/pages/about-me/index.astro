@@ -1,0 +1,32 @@
+---
+import BackgroundLayout from "../../layouts/BackgroundLayout.astro";
+import { ViewTransitions } from "astro:transitions";
+---
+
+<BackgroundLayout title="Dhanush Chilakala">
+  <main>
+    <div class="text-9xl font-black uppercase mx-8">
+      <div class="text-2xl font-medium capitalize flex gap-7">
+        <a class="hover:opacity-70 duration-100" href="/">Home</a>
+        <a class="hover:opacity-70 duration-100 underline" href="/about-me"
+          >About Me</a
+        >
+        <a class="hover:opacity-70 duration-100" href="/projects">Projects</a>
+        <a class="hover:opacity-70 duration-100" href="/miscelleneous"
+          >Miscelleneous</a
+        >
+      </div>
+      <div class="w-full h-36"></div>
+      <h1>About Me</h1>
+      <h2 class="text-2xl font-bold">Who I am</h2>
+      <div class="text-base font-medium normal-case w-[708px] text-justify">
+        <p>
+          I'm a high school senior who enjoys programming and robotics. I'm
+          currently the Lead Programmer for my school's FIRST Tech Challenge
+          team and FIRST Robotics Competition team. In my free time, I work on
+          small coding projects, compete in hackathons, and speed cube.
+        </p>
+      </div>
+    </div>
+  </main>
+</BackgroundLayout>

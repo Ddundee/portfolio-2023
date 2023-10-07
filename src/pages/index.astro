@@ -1,0 +1,48 @@
+---
+import BackgroundLayout from "../layouts/BackgroundLayout.astro";
+import { ViewTransitions } from "astro:transitions";
+---
+
+<BackgroundLayout title="Dhanush Chilakala">
+  <div class="mx-8 align-middle">
+    <div class="text-2xl font-medium capitalize flex gap-7">
+      <a class="hover:opacity-70 duration-100 underline" href="/">Home</a>
+      <a class="hover:opacity-70 duration-100" href="/about-me">About Me</a>
+      <a class="hover:opacity-70 duration-100" href="/projects">Projects</a>
+      <a class="hover:opacity-70 duration-100" href="/miscelleneous">Miscelleneous</a>
+    </div>
+	<div class="w-full h-36"/>
+    <div class="flex items-center gap-6">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="93"
+        height="93"
+        viewBox="0 0 93 93"
+        fill="none"
+      >
+        <g clip-path="url(#clip0_8_65)">
+          <circle cx="46.5" cy="46.5" r="46.5" fill="white"></circle>
+          <circle
+            cx="46.5"
+            cy="46.5"
+            r="29.5"
+            fill="#EAC645"
+            stroke="#18181B"
+            stroke-width="6"></circle>
+          <path
+            d="M38 59C38 59 41 63 46.5 63C52 63 55 59 55 59"
+            stroke="#18181B"
+            stroke-width="5"
+            stroke-linecap="round"></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_8_65">
+            <rect width="93" height="93" fill="white"></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <h1 class="text-9xl font-black uppercase">Dhanush</h1>
+    </div>
+    <h1 class="text-9xl font-black uppercase">Chilakala</h1>
+  </div>
+</BackgroundLayout>
