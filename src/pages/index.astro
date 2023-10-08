@@ -1,7 +1,6 @@
 ---
 import BackgroundLayout from "../layouts/BackgroundLayout.astro";
 import { ViewTransitions } from "astro:transitions";
-import Rectangle from "../components/Rectangle.astro"
 ---
 
 <BackgroundLayout title="Dhanush Chilakala">
@@ -14,8 +13,7 @@ import Rectangle from "../components/Rectangle.astro"
     </div>
 	<div class="w-full h-36"/>
     <div class="flex items-center gap-6">
-      <div class="animate-spin duration-75  ">
-        <svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         width="93"
         height="93"
@@ -43,21 +41,8 @@ import Rectangle from "../components/Rectangle.astro"
           </clipPath>
         </defs>
       </svg>
-      </div>
       <h1 class="text-9xl font-black uppercase">Dhanush</h1>
     </div>
     <h1 class="text-9xl font-black uppercase">Chilakala</h1>
-    <div class="flex gap-5">
-      <Rectangle>
-        <h1>Fullstack Developer</h1>
-      </Rectangle>
-      <Rectangle>
-        <h1>UI/UX Designer</h1>
-      </Rectangle>
-      <Rectangle>
-        <a class="text-blue-600 underline hover:text-blue-700 duration-100" href="https://www.credly.com/badges/95db5aa0-2310-4a42-b9e5-408e5d5ce095" target="_blank">Certified Video Deisgner</a>
-      </Rectangle>
-      
-    </div>
   </div>
 </BackgroundLayout>
